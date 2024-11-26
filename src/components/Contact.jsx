@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="bg-gray-900 text-gray-300 py-10" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
        
-        <h2 className="text-4xl font-bold text-center mb-8 animate-bounce">Contact Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-8">Contact Us</h2>
         
 
     
