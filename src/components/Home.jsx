@@ -22,8 +22,13 @@ export default function Home() {
       <div className='mt-8 space-x-10'>
         <button className=' font-bold bg-gradient-to-t from-orange-300 to-red-400 text-gray-300 hidden  md:inline transform transition-transform
          duration-300 hover:scale-105 px-4 py-2 rounded-sm'> <NavLink to='/contact'>Contact Me</NavLink></button>
-        <button className='bg-gradient-to-t from-pink-700 to-yellow-100 text-gray-300 hidden  md:inline transform transition-transform
-         duration-300 hover:scale-105 px-4 py-2 rounded-sm'> <NavLink to= '/'>Resume</NavLink></button>
+       <button
+  onClick={() => window.open('/Amna_Khalid_Resume.pdf', '_blank')} // Opens PDF in a new tab
+  className='bg-gradient-to-t from-pink-700 to-yellow-100 text-gray-300 hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-sm'
+>
+  Resume
+</button>
+
       </div>
     </div>
   )
